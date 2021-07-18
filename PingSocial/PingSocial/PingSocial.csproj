@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7C7E730-C1DC-440F-8CDA-6ABDC69EF5BA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PingSocial</RootNamespace>
+    <AssemblyName>PingSocial</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\Fertigo_18.otf" />
+    <Content Include="CSS\Opensans\OpenSans-Bold.ttf" />
+    <Content Include="CSS\Opensans\OpenSans-BoldItalic.ttf" />
+    <Content Include="CSS\Opensans\OpenSans-ExtraBold.ttf" />
+    <Content Include="CSS\Opensans\OpenSans-ExtraBoldItalic.ttf" />
+    <Content Include="CSS\Opensans\OpenSans-Italic.ttf" />
+    <Content Include="CSS\Opensans\OpenSans-Light.ttf" />
+    <Content Include="CSS\Opensans\OpenSans-LightItalic.ttf" />
+    <Content Include="CSS\Opensans\OpenSans-Regular.ttf" />
+    <Content Include="CSS\Opensans\OpenSans-Semibold.ttf" />
+    <Content Include="CSS\Opensans\OpenSans-SemiboldItalic.ttf" />
+    <Content Include="CSS\BEBAS___.TTF" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\Opensans\Apache License.txt" />
+    <Content Include="CSS\homeStyle.css" />
+    <Content Include="CSS\userHomeStyle.css" />
+    <Content Include="CSS\userProfileStyle.css" />
+    <Content Include="Homepage.aspx" />
+    <Content Include="Images\BlueIcons\address.png" />
+    <Content Include="Images\BlueIcons\address2.png" />
+    <Content Include="Images\BlueIcons\bio.png" />
+    <Content Include="Images\BlueIcons\calentar.png" />
+    <Content Include="Images\BlueIcons\cancel.png" />
+    <Content Include="Images\BlueIcons\clock.png" />
+    <Content Include="Images\BlueIcons\comment.png" />
+    <Content Include="Images\BlueIcons\email.png" />
+    <Content Include="Images\BlueIcons\email2.png" />
+    <Content Include="Images\BlueIcons\female.png" />
+    <Content Include="Images\BlueIcons\gender.png" />
+    <Content Include="Images\BlueIcons\heart.png" />
+    <Content Include="Images\BlueIcons\hphone.png" />
+    <Content Include="Images\BlueIcons\img.png" />
+    <Content Include="Images\BlueIcons\key.png" />
+    <Content Include="Images\BlueIcons\male.png" />
+    <Content Include="Images\BlueIcons\married.png" />
+    <Content Include="Images\BlueIcons\mphone.png" />
+    <Content Include="Images\BlueIcons\name.png" />
+    <Content Include="Images\BlueIcons\pass.png" />
+    <Content Include="Images\BlueIcons\post.png" />
+    <Content Include="Images\BlueIcons\profile27.png" />
+    <Content Include="Images\BlueIcons\relationship.png" />
+    <Content Include="Images\BlueIcons\reply.png" />
+    <Content Include="Images\BlueIcons\search.png" />
+    <Content Include="Images\BlueIcons\share.png" />
+    <Content Include="Images\BlueIcons\single.png" />
+    <Content Include="Images\BlueIcons\tick.png" />
+    <Content Include="Images\BlueIcons\title.png" />
+    <Content Include="Images\BlueIcons\user.png" />
+    <Content Include="Images\GrayIcons\comment.png" />
+    <Content Include="Images\GrayIcons\down.png" />
+    <Content Include="Images\GrayIcons\globe.png" />
+    <Content Include="Images\GrayIcons\key.png" />
+    <Content Include="Images\GrayIcons\mail.png" />
+    <Content Include="Images\GrayIcons\profile27.png" />
+    <Content Include="Images\GrayIcons\reply.png" />
+    <Content Include="Images\GrayIcons\telephone.png" />
+    <Content Include="Images\GrayIcons\x.png" />
+    <Content Include="Images\GreenIcons\add1.png" />
+    <Content Include="Images\GreenIcons\add2.png" />
+    <Content Include="Images\GreenIcons\conpass.png" />
+    <Content Include="Images\GreenIcons\email.png" />
+    <Content Include="Images\GreenIcons\gender.png" />
+    <Content Include="Images\GreenIcons\hphone.png" />
+    <Content Include="Images\GreenIcons\mphone.png" />
+    <Content Include="Images\GreenIcons\name.png" />
+    <Content Include="Images\GreenIcons\pass.png" />
+    <Content Include="Images\GreenIcons\pass2.png" />
+    <Content Include="Images\GreenIcons\sign1.png" />
+    <Content Include="Images\GreenIcons\sign6.png" />
+    <Content Include="Images\GreenIcons\tick.png" />
+    <Content Include="Images\GreenIcons\tick2.png" />
+    <Content Include="Images\GreenIcons\user.png" />
+    <Content Include="Images\Icons\1.png" />
+    <Content Include="Images\Icons\2.png" />
+    <Content Include="Images\Icons\Capture.PNG" />
+    <Content Include="Images\Icons\icon.PNG" />
+    <Content Include="Images\Icons\logo.gif" />
+    <Content Include="Images\Icons\Picture1.png" />
+    <Content Include="Images\minimalistic white wall 1366x768 wallpaper_wallpaperswa.com_23.jpg" />
+    <Content Include="Images\ParaImages\-xoo-xoo.me-www-template-17169-p18m32crvk1cm5125f1j47nd3c1b5-255x161.jpg" />
+    <Content Include="Images\ParaImages\1e8d726bcea1bf4dcc2d275b3754ec95.jpg" />
+    <Content Include="Images\ParaImages\6771033-architecture-wallpaper.jpg" />
+    <Content Include="Images\ParaImages\737905-architecture-wallpapers.jpg" />
+    <Content Include="Images\ParaImages\737941-architecture-wallpapers.jpg" />
+    <Content Include="Images\ParaImages\architecture_style_design_rooms_buildings_48206_3840x2160.jpg" />
+    <Content Include="Images\ParaImages\beautiful-nature-wallpaper-desktop-25tb.jpg" />
+    <Content Include="Images\ParaImages\bg-6-full.jpg" />
+    <Content Include="Images\ParaImages\birdge.jpg" />
+    <Content Include="Images\ParaImages\brickwall.png" />
+    <Content Include="Images\ParaImages\bridge.png" />
+    <Content Include="Images\ParaImages\cool.jpg" />
+    <Content Include="Images\ParaImages\colosseum.jpg" />
+    <Content Include="Images\ParaImages\cream_pixels.png" />
+    <Content Include="Images\ParaImages\diagonal_striped_brick.png" />
+    <Content Include="Images\ParaImages\editbg.png" />
+    <Content Include="Images\ParaImages\giphy.gif" />
+    <Content Include="Images\ParaImages\grunge_wall.png" />
+    <Content Include="Images\ParaImages\linen.png" />
+    <Content Include="Images\ParaImages\manhattan.jpg" />
+    <Content Include="Images\ParaImages\manhattan.png" />
+    <Content Include="Images\ParaImages\manhattan1.jpg" />
+    <Content Include="Images\ParaImages\manhattan1.png" />
+    <Content Include="Images\ParaImages\nature-wallpaper-full-hd-5wpb.jpg" />
+    <Content Include="Images\ParaImages\newyork.jpg" />
+    <Content Include="Images\ParaImages\newyork.png" />
+    <Content Include="Images\ParaImages\Paris-Architecture-High-Definition-Wallpaper.jpg" />
+    <Content Include="Images\ParaImages\paris1.jpg" />
+    <Content Include="Images\ParaImages\paris1.png" />
+    <Content Include="Images\ParaImages\paris2.jpg" />
+    <Content Include="Images\ParaImages\paris2.png" />
+    <Content Include="Images\ParaImages\SubtleNet-White-Simple-Seamless-Patterns-For-Website-Backgrounds.jpg" />
+    <Content Include="Images\ParaImages\tokyo.jpg" />
+    <Content Include="Images\ParaImages\tokyo.png" />
+    <Content Include="Images\ParaImages\White-wall-Seamless-Pattern-For-Website-Background.jpg" />
+    <Content Include="Images\ParaImages\white_wall.png" />
+    <Content Include="Images\ParaImages\whoa.png" />
+    <Content Include="Images\ParaImages\witewall_3.png" />
+    <Content Include="Images\Preloader\myp.GIF" />
+    <Content Include="Images\Preloader\newp.GIF" />
+    <Content Include="Images\Preloader\ping.GIF" />
+    <Content Include="Images\Preloader\pre.gif" />
+    <Content Include="Images\RedIcons\clear.png" />
+    <Content Include="Images\RedIcons\sign1.png" />
+    <Content Include="Images\RedIcons\sign6.png" />
+    <Content Include="Images\RedIcons\x.png" />
+    <Content Include="Images\shields16.png" />
+    <Content Include="Images\WhiteIcons\camera.png" />
+    <Content Include="Images\WhiteIcons\clear.png" />
+    <Content Include="Images\WhiteIcons\comment.png" />
+    <Content Include="Images\WhiteIcons\edit.png" />
+    <Content Include="Images\WhiteIcons\edit2.png" />
+    <Content Include="Images\WhiteIcons\expand.png" />
+    <Content Include="Images\WhiteIcons\feed.png" />
+    <Content Include="Images\WhiteIcons\ping_white.png" />
+    <Content Include="Images\WhiteIcons\post.png" />
+    <Content Include="Images\WhiteIcons\profile.png" />
+    <Content Include="Images\WhiteIcons\reply1.png" />
+    <Content Include="Images\WhiteIcons\reply2.png" />
+    <Content Include="Images\WhiteIcons\save.png" />
+    <Content Include="Images\WhiteIcons\share.png" />
+    <Content Include="Images\WhiteIcons\share2.png" />
+    <Content Include="Images\WhiteIcons\sign6.png" />
+    <Content Include="Images\WhiteIcons\up.png" />
+    <Content Include="Images\WhiteIcons\user.png" />
+    <Content Include="Images\WhiteIcons\x.png" />
+    <Content Include="JS\jquery-1.11.3.js" />
+    <Content Include="JS\homeScript.js" />
+    <Content Include="JS\userHomepageScript.js" />
+    <Content Include="JS\userProfilePage.js" />
+    <Content Include="PingMain.accdb" />
+    <Content Include="userHomepage.aspx" />
+    <Content Include="userProfilePage.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="loggedUser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="updateUserinTables.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="userHomepage.aspx.cs">
+      <DependentUpon>userHomepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userHomepage.aspx.designer.cs">
+      <DependentUpon>userHomepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userProfilePage.aspx.cs">
+      <DependentUpon>userProfilePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userProfilePage.aspx.designer.cs">
+      <DependentUpon>userProfilePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user_Post.cs" />
+    <Compile Include="user_Reply.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1113</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1113/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
