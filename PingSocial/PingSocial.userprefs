@@ -1,0 +1,26 @@
+﻿<Properties StartupItem="PingSocial\PingSocial.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="ChromeHTML" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PingSocial\Homepage.aspx.cs">
+    <Files>
+      <File FileName="PingSocial\Homepage.aspx" Line="42" Column="21" />
+      <File FileName="PingSocial\Homepage.aspx.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PingSocial" expanded="True">
+            <Node name="PingSocial" expanded="True">
+              <Node name="Homepage.aspx" expanded="True">
+                <Node name="Homepage.aspx.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
