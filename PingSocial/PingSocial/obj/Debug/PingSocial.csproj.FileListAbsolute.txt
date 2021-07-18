@@ -1,0 +1,6 @@
+C:\Users\Emille2.EMILLEHENRY-PC\documents\visual studio 2013\Projects\PingSocial\PingSocial\bin\PingSocial.dll.config
+C:\Users\Emille2.EMILLEHENRY-PC\documents\visual studio 2013\Projects\PingSocial\PingSocial\bin\PingSocial.dll
+C:\Users\Emille2.EMILLEHENRY-PC\documents\visual studio 2013\Projects\PingSocial\PingSocial\bin\PingSocial.pdb
+C:\Users\Emille2.EMILLEHENRY-PC\documents\visual studio 2013\Projects\PingSocial\PingSocial\obj\Debug\PingSocial.csprojResolveAssemblyReference.cache
+C:\Users\Emille2.EMILLEHENRY-PC\documents\visual studio 2013\Projects\PingSocial\PingSocial\obj\Debug\PingSocial.dll
+C:\Users\Emille2.EMILLEHENRY-PC\documents\visual studio 2013\Projects\PingSocial\PingSocial\obj\Debug\PingSocial.pdb
